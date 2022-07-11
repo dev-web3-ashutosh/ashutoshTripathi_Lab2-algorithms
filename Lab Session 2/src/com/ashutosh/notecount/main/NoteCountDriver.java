@@ -11,6 +11,9 @@ public class NoteCountDriver {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter the size of currency denominations");
+		int size = sc.nextInt();
+		
 		
 
 	}
