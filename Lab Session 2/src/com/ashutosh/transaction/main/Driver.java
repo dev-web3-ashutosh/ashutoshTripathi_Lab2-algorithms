@@ -7,7 +7,7 @@ public class Driver {
 	public static void main(String[] args) {
 		
 		int[] arr;
-		int size, targets, targetValue;
+		int size, targets;
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -15,6 +15,10 @@ public class Driver {
 		size = sc.nextInt();
 		
 		arr = new int[size];
+		
+		for(int i=0; i<size; ++i) {
+			arr[i] = sc.nextInt();
+		}
 		
 		
 
