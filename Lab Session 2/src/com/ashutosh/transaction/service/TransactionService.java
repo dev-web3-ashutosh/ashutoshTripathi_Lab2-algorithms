@@ -19,6 +19,7 @@ public class TransactionService {
 				sum += array[i];
 				if(sum >= value) {
 					System.out.println("Target achieved after " + (i+1) + " transactions");
+					System.out.println();
 					achieved = true;
 					break;
 				}

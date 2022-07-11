@@ -19,6 +19,7 @@ public class Driver {
 		arr = new int[size]; //create new array of size input by user
 		
 		//input array values
+		System.out.println("Enter the values of array");
 		for(int i=0; i<size; ++i) {
 			arr[i] = sc.nextInt();
 		}
