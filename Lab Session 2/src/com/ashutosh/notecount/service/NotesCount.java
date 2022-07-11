@@ -25,7 +25,7 @@ public class NotesCount {
 					}
 				}
 			}
-		} catch (Arithmetic Exception e) {
+		} catch (ArithmeticException e) {
 			System.out.println(e + " notes of denomination 0 is invalid");
 		}
 		
