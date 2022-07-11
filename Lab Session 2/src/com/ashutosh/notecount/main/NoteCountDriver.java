@@ -8,7 +8,7 @@ import com.ashutosh.notecount.service.NotesCount;
 
 public class NoteCountDriver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		MergeSort msObj = new MergeSort();
 		NotesCount ncObj = new NotesCount();
