@@ -20,6 +20,9 @@ public class Driver {
 			arr[i] = sc.nextInt();
 		}
 		
+		System.out.println("Enter the total no of targets that needs to be achieved");
+		targets = sc.nextInt();
+		
 		
 
 	}
