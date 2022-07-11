@@ -1,6 +1,5 @@
 package com.ashutosh.notecount.main;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 import com.ashutosh.notecount.service.MergeSort;
@@ -30,7 +29,7 @@ public class NoteCountDriver {
 		int amount = sc.nextInt();
 		
 		msObj.sort(notes, 0, notes.length-1);
-		
+		ncObj.noteCounter(notes, amount);
 		
 		sc.close();
 
