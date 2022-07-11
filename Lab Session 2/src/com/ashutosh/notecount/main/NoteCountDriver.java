@@ -25,7 +25,7 @@ public class NoteCountDriver {
 		System.out.println("Enter the amount you want to pay");
 		int amount = sc.nextInt();
 		
-		
+		sc.close();
 
 	}
 
