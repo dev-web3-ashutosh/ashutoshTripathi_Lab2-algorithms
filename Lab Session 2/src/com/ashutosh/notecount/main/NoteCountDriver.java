@@ -2,6 +2,9 @@ package com.ashutosh.notecount.main;
 
 import java.util.Scanner;
 
+import com.ashutosh.notecount.service.MergeSort;
+import com.ashutosh.notecount.service.NotesCount;
+
 public class NoteCountDriver {
 
 	public static void main(String[] args) {
