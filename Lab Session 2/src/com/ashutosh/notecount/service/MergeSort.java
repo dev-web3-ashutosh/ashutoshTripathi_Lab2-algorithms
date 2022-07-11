@@ -27,7 +27,7 @@ public class MergeSort
         // Initial index of merged subarray array
         int k = l;
         while (i < n1 && j < n2) {
-            if (leftArray[i] <= rightArray[j]) {
+            if (leftArray[i] >= rightArray[j]) { //descending order
                 arr[k] = leftArray[i];
                 i++;
             }
